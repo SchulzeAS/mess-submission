@@ -1,3 +1,11 @@
+## This repository is a copy of [this repository](https://gitlab.mpi-magdeburg.mpg.de/mess/mmess-releases/tree/v2.0/)
+except for some minor changes in the sigma_plot method, which allows it to compare multiple ROMs.  
+also the usfs-set __default_gpu__ was added and multiplication was changed to a CUDA based method.
+solving was not changed because for some reason CUDA doesnt exactly work the same as plain Matlab.
+
+
+## ORIGINAL README.MD:
+
 M-M.E.S.S. - The Matrix Equation Sparse Solver Library for MATLAB and Octave
 ============================================================================
 
